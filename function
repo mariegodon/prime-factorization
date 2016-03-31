@@ -4,7 +4,6 @@ var factors = [];
     	while (integer%i === 0){
         factors.push(i);
         integer /= i;
-        i=2;
         }
 return factors;
 }
