@@ -1,10 +1,11 @@
 function primeFactorization(integer) {
 var factors = [];
-	for (i=2; i<integer; i++)
-    	while (integer%i === 0){
-        factors.push(i);
-        integer /= i;
-        }
+	for (i=2; i<integer; i++) {
+    		while (integer%i === 0){
+        	factors.push(i);
+        	integer /= i;
+        	}
+	}
 return factors;
 }
 
